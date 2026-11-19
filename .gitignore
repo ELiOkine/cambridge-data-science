@@ -1,0 +1,38 @@
+# Secrets and local credentials
+.env
+.env.*
+!.env.example
+kaggle.json
+access_token
+*.pem
+id_rsa
+id_rsa.pub
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Do not add client, NDA, or course-restricted data
+**/*nielsen*
+**/*inchcape*
+**/*suzuki*sales*
+**/*Trustpilot*
+**/*Google_12_months*
+**/*PureGym*
+**/*NDA*
+*.h5
+*.pt
+*.bin
+*.pkl
+*.parquet
